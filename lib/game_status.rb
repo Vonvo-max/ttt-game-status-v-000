@@ -76,7 +76,7 @@ end
 
 def winner(board)
   if won_game = won?(board)
-    return board[won_game.firstt]
+    return board[won_game.first]
   end
  end
 
